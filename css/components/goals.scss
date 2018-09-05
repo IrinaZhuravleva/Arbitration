@@ -1,0 +1,57 @@
+// goals.scss
+.goals {
+	margin-top: 200px;
+	p {
+		position: relative;
+			&:before {
+			position: absolute;
+			content: "";
+			top: -60px;
+	    left: 0px;
+	    width: 80px;
+	    height: 2.4px;
+	    background-color: #f99406;;
+		}
+		&:after {
+			position: absolute;
+			content: "";
+			top: -45px;
+    	left: 20px;
+	    width: 80px;
+	    height: 2.4px;
+	    background-color: #f99406;;
+		}
+	}
+	
+	li {
+		@include span;
+		padding-top: 60px;
+		padding-left: 60px;
+		list-style: none;
+		position: relative;
+		span {
+			position: absolute;
+			top: 19px;
+    	left: 35px;
+			opacity: 0.05;
+			color: #ffffff;
+			font-size: 72px;
+			font-weight: 900;
+			line-height: 52px;
+			text-transform: uppercase;
+			letter-spacing: 3.6px;
+		}
+		&:before {
+			position: absolute;
+			content: "";
+			width: 28px;
+			height: 28px;
+			top: 50px;
+			left: 20px;
+
+			background-image: url(img/circle.png);
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	}
+}

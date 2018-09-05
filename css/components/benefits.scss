@@ -1,0 +1,29 @@
+.benefits {
+	margin-top: 60px;
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	.benefit {
+		margin-bottom: 50px;
+		h3 {
+			margin-top: 25px;
+			color: #ffffff;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 20px;
+			text-transform: uppercase;
+			letter-spacing: 0.8px;
+		}
+		p {
+			margin: 0 auto;
+			margin-top: 20px;
+			width: 190px;
+			color: #bdbdbd;
+			font-size: 16px;
+			font-weight: 300;
+			line-height: 20px;
+			letter-spacing: 0.8px;
+		}
+	}
+}

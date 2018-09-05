@@ -1,0 +1,100 @@
+html
+	title Arbitration
+	link(href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet")
+	link(rel='stylesheet' href='css/style.css')
+	meta(name="viewport" content="width=device-width")
+	body
+		header.logo
+			.container
+				.logo-image
+					img(src="img/logo-mob.png" width="109" height="30" alt="logo")
+			.container.container-logo
+				.logo-group
+					.title 
+						h2 Видеокурс
+						p “Вступление в товарный арбитраж трафика“
+						span Получи бесплатный видеокурс по&nbspтоварному арбитражу для&nbspновичков
+					.image-group
+						img(src="img/2-layers.png" width="375" height="369" alt="folders")
+			.container
+				form(method='POST' action='#')
+					.form-group
+						label(for='email')
+						input.email-control(type='email', placeholder='введите ваш e-mail' name='email' id='email')
+					.form-group-get
+						button 
+							a Скачать видео курс
+		section.benefits
+			.container
+				.benefit
+					.benefit-image 
+						img(src="img/bulb-mob.png" width="115" height="71" alt="bulb")
+					h3.benefit-title Быстро
+					p вольешься в нишу интернет продаж
+				.benefit
+					.benefit-image 
+						img(src="img/money-mob.png" width="67" height="67" alt="money")
+					h3.benefit-title овладеешь
+					p наиболее выгодной и&nbspвостребованной профессией 2018 года
+				.benefit
+					.benefit-image 
+						img(src="img/case-mob.png" width="68" height="61" alt="case")
+					h3.benefit-title зарабатывай
+					p деньги в любой точке мира
+		section.bio
+			.container
+				.bio-image
+					img(src="img/artur-mob.png" width="185" height="239" alt="Artur Garnaev")
+				.title
+					h2 автор Видеокурса
+					p Артур Гарнаев
+					span Арбитражник, рекламодатель, интернет-&nbspпредприниматель
+					span Прокрутил рекламы более чем на 50000$ Ежедневно продаю более 150 физических товаров притом, что трафик на рекламу лью сам!
+		section.goals
+			.container
+				.image-goals
+					img(src="img/7-layers-tab.png" width="1538" height="374" alt="diagram")
+				.title
+					p После прохождения бесплатного&nbspвидеокурса ты узнаешь:
+					ul 
+						li В чем суть арбитража трафика?
+							span 1
+						li Как заработать на арбитраже трафика?
+							span 2
+						li Сколько можно заработать на товарке?
+							span 3
+						li Как стать арбитражником?
+							span 4
+						li С чего начать?
+							span 5
+		section.download
+			.container-row
+				.title
+					p Скачай видеокурс сейчас
+					h2 и получи крутой бонус совершенно бесплатно!
+					p.subtitle Предложение ограничено! Успей!
+				#clockdiv
+					.block
+						span.days
+						.smalltext дней
+					.block
+						span.hours
+						.smalltext часов
+					.block
+						span.minutes
+						.smalltext минут
+					.block
+						span.seconds
+						.smalltext секунд
+				form(method='POST' action='#')
+					.form-group
+						label(for='email')
+						input.email-control(type='email', placeholder='введите ваш e-mail' name='email' id='email')
+					.form-group-get
+						button 
+							a Скачать видео курс
+			footer.copyright
+				.container-footer
+					span.first “ШКОЛА ТРАФИКА" 
+					span - школа товарного арбитража трафика Артура Гарнаева (с) 2016
+	script(src='timer.js')
