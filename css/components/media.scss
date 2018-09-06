@@ -57,8 +57,8 @@
 		}
 		.title {
 			text-align: left;
-	    padding-left: 27px;
-	    padding-right: 200px;
+		    padding-left: 27px;
+		    padding-right: 200px;
 		}
 	}
 
@@ -72,9 +72,14 @@
 		margin: 50px auto 0px auto;
 	}
 
-	.download form {
+	.download {
+
+	margin-top: 100px;
+
+	form {
 		margin-left: 130px;
     margin-top: 50px;
+	}
 	}
 }
 
@@ -82,15 +87,12 @@
 	.goals {
 		.title {
 		position: relative;
+		margin: 0 auto;
 	}
 		.image-goals img{
-			width: 100%;
-			overflow: hidden;
-			position: absolute;
-			top: 140px;
-    	left: -220px;
+			
 			display: block;
-			margin: 0 auto;
+			
 			
 		}
 		li {
@@ -98,32 +100,38 @@
 			display: block;
     	padding: 0;
     	width: 200px;
+    	font-size: 18px;
+font-weight: 300;
+line-height: 24px;
 			
 			&:nth-of-type(1) {
-				top: 10px;
-			left: 10px;
+				top: 93px;
+    		left: -72px;
 			}
 			&:nth-of-type(2) {
-				top: 20px;
-			left: 10px;
+				top: -72px;
+    		left: 140px;
 			}
 			&:nth-of-type(3) {
-				top: 10px;
-			left: 20px;
+				top: -109px;
+    		left: 323px;
+				width: 150px;
 			}
 			&:nth-of-type(4) {
-				top: 10px;
-			left: 30px;
+				top: -328px;
+    		left: 489px;
 			}
 			&:nth-of-type(5) {
-				top: 10px;
-			left: 50px;
+				top: -464px;
+    		left: 670px;
 			}
 		}
 
 	}
 
-
+	.download {
+    margin-top: 0px;
+  }
 
 	form {
 		.form-group {

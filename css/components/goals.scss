@@ -1,6 +1,7 @@
 // goals.scss
 .goals {
 	margin-top: 200px;
+	position: relative;
 	p {
 		position: relative;
 			&:before {
@@ -54,4 +55,13 @@
 			background-position: center;
 		}
 	}
+}
+
+.image-goals img{
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	margin: 0 auto;
+	top: 140px;
+  left: 150px;
 }
