@@ -170,7 +170,9 @@ form {
     margin-top: 100px; }
     .download form {
       margin-left: 130px;
-      margin-top: 50px; } }
+      margin-top: 50px; }
+      .download form .form-group input {
+        width: 373px; } }
 
 @media (min-width: 1200px) {
   .goals .title {
@@ -203,9 +205,7 @@ form {
       top: -464px;
       left: 670px; }
   .download {
-    margin-top: 0px; }
-  form .form-group input {
-    width: 373px; } }
+    margin-top: 0px; } }
 
 .benefits {
   margin-top: 60px;
